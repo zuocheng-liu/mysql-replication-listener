@@ -5,7 +5,6 @@ CMakeFiles/*
 CPackConfig.cmake
 CPackSourceConfig.cmake
 CTestTestfile.cmake
-Makefile
 _CPack_Packages
 cmake_install.cmake
 install_manifest.txt
