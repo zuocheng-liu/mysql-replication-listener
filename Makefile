@@ -1,15 +1,14 @@
-POCO=${HOME}/local/poco
+#POCO=${HOME}/local/poco
 CXX=g++
 CXXLD=${CXX} -fPIC -shared -o 
 BASE_DIR= .
 BASE_INC= ${BASE_DIR}/include
 
 INC= -I${BASE_INC} \
-	 -I${POCO}/include
 
-LIBDIR= -L${POCO}/lib
+LIBDIR= 
 
-LIB= -lm \
+LIB= 
 
 FLAG= ${LIBDIR} ${LIB} ${INC}
 
