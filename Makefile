@@ -1,14 +1,37 @@
+<<<<<<< Updated upstream
 #POCO=${HOME}/local/poco
+=======
+<<<<<<< HEAD
+# POCO=${HOME}/local/poco
+=======
+#POCO=${HOME}/local/poco
+>>>>>>> 2fb20c8887fd4cd14c74acdd064b8facb4ab71bd
+>>>>>>> Stashed changes
 CXX=g++
 CXXLD=${CXX} -fPIC -shared -o 
 BASE_DIR= .
 BASE_INC= ${BASE_DIR}/include
 
 INC= -I${BASE_INC} \
+<<<<<<< Updated upstream
 
 LIBDIR= 
 
 LIB= 
+=======
+<<<<<<< HEAD
+#	 -I${POCO}/include
+
+#LIBDIR= -L${POCO}/lib
+
+#LIB= -lm \
+=======
+
+LIBDIR= 
+
+LIB= 
+>>>>>>> 2fb20c8887fd4cd14c74acdd064b8facb4ab71bd
+>>>>>>> Stashed changes
 
 FLAG= ${LIBDIR} ${LIB} ${INC}
 

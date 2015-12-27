@@ -1,5 +1,13 @@
 *~
+<<<<<<< Updated upstream
 compile/*
+=======
+<<<<<<< HEAD
+compile
+=======
+compile/*
+>>>>>>> 2fb20c8887fd4cd14c74acdd064b8facb4ab71bd
+>>>>>>> Stashed changes
 CMakeCache.txt
 CMakeFiles
 CMakeFiles/*
